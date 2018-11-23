@@ -3,7 +3,54 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.102
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCons1", "TestCons1\TestCons1.csproj", "{B3D916DC-5A9B-4BF9-B63C-1B26215EC8AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebugDemo", "DebugDemo\DebugDemo.csproj", "{4B271E23-13B5-4569-94D4-0F1C1176F3F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_Variabler", "Opg_Variabler\Opg_Variabler.csproj", "{CC0292DE-9131-4F43-9EB4-B27BCA3F45BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_Variabler_DataTime", "Opg_Variabler_DataTime\Opg_Variabler_DataTime.csproj", "{4962E933-05C0-4376-943E-FD0F301FAAD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_Variabler_Text", "Opg_Variabler_Text\Opg_Variabler_Text.csproj", "{55AEA31E-E2F2-4538-B526-68A5CE644688}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{91977230-C580-4E67-813D-7771C5D67449}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_Variabler_struct_enum", "Opg_Variabler_struct_enum\Opg_Variabler_struct_enum.csproj", "{CEF6E300-A693-4774-860C-18D5FB73A8E0}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3D916DC-5A9B-4BF9-B63C-1B26215EC8AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3D916DC-5A9B-4BF9-B63C-1B26215EC8AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3D916DC-5A9B-4BF9-B63C-1B26215EC8AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3D916DC-5A9B-4BF9-B63C-1B26215EC8AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B271E23-13B5-4569-94D4-0F1C1176F3F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B271E23-13B5-4569-94D4-0F1C1176F3F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B271E23-13B5-4569-94D4-0F1C1176F3F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B271E23-13B5-4569-94D4-0F1C1176F3F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC0292DE-9131-4F43-9EB4-B27BCA3F45BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC0292DE-9131-4F43-9EB4-B27BCA3F45BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC0292DE-9131-4F43-9EB4-B27BCA3F45BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC0292DE-9131-4F43-9EB4-B27BCA3F45BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4962E933-05C0-4376-943E-FD0F301FAAD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4962E933-05C0-4376-943E-FD0F301FAAD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4962E933-05C0-4376-943E-FD0F301FAAD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4962E933-05C0-4376-943E-FD0F301FAAD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55AEA31E-E2F2-4538-B526-68A5CE644688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55AEA31E-E2F2-4538-B526-68A5CE644688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55AEA31E-E2F2-4538-B526-68A5CE644688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55AEA31E-E2F2-4538-B526-68A5CE644688}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEF6E300-A693-4774-860C-18D5FB73A8E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEF6E300-A693-4774-860C-18D5FB73A8E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEF6E300-A693-4774-860C-18D5FB73A8E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEF6E300-A693-4774-860C-18D5FB73A8E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
