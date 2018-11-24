@@ -12,7 +12,7 @@ namespace TestCons1
         {
 
 
-            Console.WriteLine("Test");
+            Console.WriteLine("Test23");
             if (System.Diagnostics.Debugger.IsAttached)
             {
                 Console.Write("Press any key to continue . . . ");
