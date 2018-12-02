@@ -32,6 +32,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_Metoder_Simple", "Opg_M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_Metoder_Statisk", "Opg_Metoder_Statisk\Opg_Metoder_Statisk.csproj", "{F64DE951-8A9D-433E-9CD8-B5941E14F2E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_Metoder_Nullable", "Opg_Metoder_Nullable\Opg_Metoder_Nullable.csproj", "{89F45186-1782-4426-8DB3-58AC7532CCF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -86,6 +88,10 @@ Global
 		{F64DE951-8A9D-433E-9CD8-B5941E14F2E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F64DE951-8A9D-433E-9CD8-B5941E14F2E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F64DE951-8A9D-433E-9CD8-B5941E14F2E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89F45186-1782-4426-8DB3-58AC7532CCF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89F45186-1782-4426-8DB3-58AC7532CCF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89F45186-1782-4426-8DB3-58AC7532CCF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89F45186-1782-4426-8DB3-58AC7532CCF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -94,5 +100,9 @@ Global
 		SolutionGuid = {DA455DC3-7EFA-4163-8F68-61F3893BD8BE}
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.VersionControlPolicy = $1
 	EndGlobalSection
 EndGlobal
