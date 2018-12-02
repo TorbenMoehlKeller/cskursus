@@ -18,7 +18,7 @@ namespace Opg_Metoder_Nullable
 
 
 
-            // Break ud i kode er også muligt
+            // Break ud i kode    er også muligt
             // System.Diagnostics.Debugger.Break();
 
             // Hold Console åbn (ved debug)
