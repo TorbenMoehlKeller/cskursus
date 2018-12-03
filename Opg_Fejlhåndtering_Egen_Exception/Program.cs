@@ -11,7 +11,9 @@ namespace Opg_Fejlhåndtering_Egen_Exception
         static void Main(string[] args)
         {
 
-            string sti = @"c:\temp\tal.txt";
+            // string sti = @"c:\temp \ tal.txt";
+
+            string sti = $"/Users/tkeller/cskursus/tal.txt";
 
             if (!System.IO.File.Exists(sti))
             {
@@ -19,8 +21,23 @@ namespace Opg_Fejlhåndtering_Egen_Exception
             }
 
             string indhold = "";
-            indhold = System.IO.File.ReadAllText(sti);
-            System.IO.File.
+            try
+            {
+
+                indhold = System.IO.File.ReadAllText(sti);
+                int tal = Convert.ToInt32(indhold);
+                tal++;
+                System.IO.File.WriteAllText(sti, tal.ToString());
+                Console.WriteLine($"Tal i fil er nu {tal}");
+            }
+            catch (System.FormatException)
+            {
+                throw new ApplicationException($"'{indhold}' kan ikke konverteres til et heltal");
+            }
+            catch (Exception)
+            {
+                throw;
+            }
           
 
             if (System.Diagnostics.Debugger.IsAttached)
