@@ -20,19 +20,29 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_Variabler_struct_enum", "Opg_Variabler_struct_enum\Opg_Variabler_struct_enum.csproj", "{CEF6E300-A693-4774-860C-18D5FB73A8E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OPG_Flow", "OPG_Flow\OPG_Flow.csproj", "{220CC157-3BB5-4063-8619-A8114EE5E57A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OPG_Flow", "OPG_Flow\OPG_Flow.csproj", "{220CC157-3BB5-4063-8619-A8114EE5E57A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_Metoder_Overload", "Opg_Metoder_Overload\Opg_Metoder_Overload.csproj", "{6622F5B3-95BB-4EA8-A4CC-7574A6A09F54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_Metoder_Rekursiv", "Opg_Metoder_Rekursiv\Opg_Metoder_Rekursiv.csproj", "{03C8B694-4234-438F-A430-7CC6882361F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opg_Metoder_Rekursiv", "Opg_Metoder_Rekursiv\Opg_Metoder_Rekursiv.csproj", "{03C8B694-4234-438F-A430-7CC6882361F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_Metoder_Rekursiv_Filer", "Opg_Metoder_Rekursiv_Filer\Opg_Metoder_Rekursiv_Filer.csproj", "{FCF38132-E71E-4F90-86E6-2DD22A94F34C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opg_Metoder_Rekursiv_Filer", "Opg_Metoder_Rekursiv_Filer\Opg_Metoder_Rekursiv_Filer.csproj", "{FCF38132-E71E-4F90-86E6-2DD22A94F34C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_Metoder_Simple", "Opg_Metoder_Simple\Opg_Metoder_Simple.csproj", "{66601111-44B6-48F1-8577-02E7A0AC76C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opg_Metoder_Simple", "Opg_Metoder_Simple\Opg_Metoder_Simple.csproj", "{66601111-44B6-48F1-8577-02E7A0AC76C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_Metoder_Statisk", "Opg_Metoder_Statisk\Opg_Metoder_Statisk.csproj", "{F64DE951-8A9D-433E-9CD8-B5941E14F2E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opg_Metoder_Statisk", "Opg_Metoder_Statisk\Opg_Metoder_Statisk.csproj", "{F64DE951-8A9D-433E-9CD8-B5941E14F2E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_Metoder_Nullable", "Opg_Metoder_Nullable\Opg_Metoder_Nullable.csproj", "{89F45186-1782-4426-8DB3-58AC7532CCF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opg_Metoder_Nullable", "Opg_Metoder_Nullable\Opg_Metoder_Nullable.csproj", "{89F45186-1782-4426-8DB3-58AC7532CCF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_Fejlhåndtering_Simpel", "ConsoleApp1\Opg_Fejlhåndtering_Simpel.csproj", "{6D082D1A-01C1-4DEB-8C7F-E332819DF2E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_Fejlhåndtering_Egen_Exception", "Opg_Fejlhåndtering_Egen_Exception\Opg_Fejlhåndtering_Egen_Exception.csproj", "{DBFC816A-CCD2-4DEC-B4C6-CC02B6B13146}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_Hukommelse", "Opg_Hukommelse\Opg_Hukommelse.csproj", "{A09FE985-3E7D-4AFD-93D1-7F472DC7B0A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_Klasser_Simpel", "Opg_Klasser_Simpel\Opg_Klasser_Simpel.csproj", "{C10D6A40-C498-4F6D-A8D3-9C67A25A612A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_Klasser_Terning", "Opg_Klasser_Terning\Opg_Klasser_Terning.csproj", "{47530610-202B-4176-B23F-CC95EA895E07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -92,14 +102,32 @@ Global
 		{89F45186-1782-4426-8DB3-58AC7532CCF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89F45186-1782-4426-8DB3-58AC7532CCF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89F45186-1782-4426-8DB3-58AC7532CCF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D082D1A-01C1-4DEB-8C7F-E332819DF2E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D082D1A-01C1-4DEB-8C7F-E332819DF2E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D082D1A-01C1-4DEB-8C7F-E332819DF2E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D082D1A-01C1-4DEB-8C7F-E332819DF2E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBFC816A-CCD2-4DEC-B4C6-CC02B6B13146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBFC816A-CCD2-4DEC-B4C6-CC02B6B13146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBFC816A-CCD2-4DEC-B4C6-CC02B6B13146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBFC816A-CCD2-4DEC-B4C6-CC02B6B13146}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A09FE985-3E7D-4AFD-93D1-7F472DC7B0A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A09FE985-3E7D-4AFD-93D1-7F472DC7B0A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A09FE985-3E7D-4AFD-93D1-7F472DC7B0A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A09FE985-3E7D-4AFD-93D1-7F472DC7B0A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C10D6A40-C498-4F6D-A8D3-9C67A25A612A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C10D6A40-C498-4F6D-A8D3-9C67A25A612A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C10D6A40-C498-4F6D-A8D3-9C67A25A612A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C10D6A40-C498-4F6D-A8D3-9C67A25A612A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47530610-202B-4176-B23F-CC95EA895E07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47530610-202B-4176-B23F-CC95EA895E07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47530610-202B-4176-B23F-CC95EA895E07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47530610-202B-4176-B23F-CC95EA895E07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DA455DC3-7EFA-4163-8F68-61F3893BD8BE}
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		Policies = $0
