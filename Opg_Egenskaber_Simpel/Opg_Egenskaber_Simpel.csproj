@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{47530610-202B-4176-B23F-CC95EA895E07}</ProjectGuid>
+    <ProjectGuid>{4572F32F-E07C-49A5-A952-C0BD949E3B59}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Opg_Klasser_Terning</RootNamespace>
-    <AssemblyName>Opg_Klasser_Terning</AssemblyName>
+    <RootNamespace>Opg_Egenskaber_Simpel</RootNamespace>
+    <AssemblyName>Opg_Egenskaber_Simpel</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

@@ -27,40 +27,41 @@ namespace Opg_Klasser_Terning
                 Console.ReadKey();
             }
         }
-        public class Terning
+       
+    }
+    public class Terning
+    {
+        public int Værdi;
+        private bool Snyd;
+
+        private static Random Rnd = new Random();
+
+        public Terning()
         {
-            public int Værdi;
-            private bool Snyd;
+            this.Værdi = 1;
+            this.Snyd = false;
+        }
 
-            private static Random Rnd = new Random();
+        public Terning(bool snyd)
+        {
 
-            public Terning ()
-            {
-                this.Værdi = 1;
-                this.Snyd = false;  
-            }
+            this.Snyd = snyd;
+            Ryst();
+        }
 
-            public Terning(bool snyd)
-            {
+        public void Skriv()
+        {
+            Console.WriteLine($"[{this.Værdi}]");
 
-                this.Snyd = snyd;
-                Ryst();
-            }
+        }
+        public void Ryst()
+        {
+            if (Snyd == true)
+                this.Værdi = 6;
+            else
+                this.Værdi = Rnd.Next(1, 7);
 
-            public void Skriv()
-            {
-                 Console.WriteLine($"[{this.Værdi}]");
-         
-            }
-            public void Ryst()
-            {
-                if (Snyd == true)
-                    this.Værdi = 6;
-                else
-                    this.Værdi = Rnd.Next(1, 7);
-                  
 
-            }
         }
     }
 }
